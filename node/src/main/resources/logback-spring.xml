@@ -12,12 +12,10 @@
         <logger name="org.springboot.sample" level="ERROR" />
         <logger name="com.tron" level="ERROR"/>
     </springProfile>
-    <!--<property name="LOG_HOME" value="/var/log/audit" />-->
     <property name="LOG_HOME" value="." />
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
-            <Pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n
-            </Pattern>
+            <Pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n</Pattern>
         </encoder>
     </appender>
     <!-- per day -->
