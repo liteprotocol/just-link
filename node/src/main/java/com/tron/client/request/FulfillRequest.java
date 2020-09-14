@@ -1,4 +1,4 @@
-package com.tron.client;
+package com.tron.client.request;
 
 public class FulfillRequest {
 
