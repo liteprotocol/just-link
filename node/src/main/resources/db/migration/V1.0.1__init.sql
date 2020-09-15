@@ -6,7 +6,7 @@ CREATE TABLE `job_specs`  (
   `created_at` timestamp(0) NOT NULL DEFAULT CURRENT_TIMESTAMP(0),
   `updated_at` timestamp(0) NOT NULL DEFAULT CURRENT_TIMESTAMP(0),
   `deleted_at` timestamp(0),
-  `min_payment` varchar(255),
+  `min_payment` BIGINT,
   PRIMARY KEY (`id`),
   index `idx_job_specs_created_at` (`created_at`),
   index `idx_job_specs_start_at` (`start_at`),
