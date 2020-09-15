@@ -2,6 +2,9 @@ package com.tron.keystore;
 
 import org.springframework.stereotype.Component;
 
+/**
+ * Store the private and address info of the node.
+ */
 @Component
 public class KeyStore {
 
